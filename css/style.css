@@ -78,3 +78,11 @@
     box-shadow: 5px 5px 33px -2px var(--cor-primaria-verde-neon);
     transition: box-shadow 0.2s;
 }
+
+/*mediaquery*/
+
+@media (max-width: 720px){
+    .container{
+        max-width: 25rem;
+    }
+}
