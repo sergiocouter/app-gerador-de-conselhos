@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-manrope);
+}
+
+:root{
+    /*Cores*/
+    --cor-primaria-ciano-claro: hsl(193, 38%, 86%);
+    --cor-primaria-verde-neon: hsl(150, 100%, 66%);
+    --cor-secundaria-azul-acn: hsl(217, 19%, 38%);
+    --cor-secundaria-azul-acn-escuro: hsl(217, 19%, 24%);
+    --cor-secundaria-azul-escuro: hsl(218, 23%, 16%);
+
+    /*Fonte*/
+    --font-manrope: 'Manrope', sans-serif;
+}
+
+.body{
+    background-color: var(--cor-secundaria-azul-escuro);
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 35vw;
+    height: 40vh;
+    background-color: var(--cor-secundaria-azul-acn);
+    border-radius: 10px;
+    margin-top: 25vh;
+}
+
+.container__conselho{
+    text-align: center;
+    color: var(--cor-primaria-verde-neon);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.container__conselho__texto{
+    text-align: center;
+    color: var(--cor-primaria-ciano-claro);
+    font-size: 1.3rem;
+    margin: 5vh 1vw 2vh ;
+}
